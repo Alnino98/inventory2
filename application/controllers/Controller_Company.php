@@ -58,7 +58,7 @@ class Controller_Company extends Admin_Controller
         }
         else {
             // false case
-            $this->data['currency_symbols'] = $this->select_barang();
+            $this->data['currency_symbols'] = $this->currency();
         	$this->data['company_data'] = $this->model_company->getCompanyData(1);
 			$this->render_template('company/index', $this->data);			
         }	

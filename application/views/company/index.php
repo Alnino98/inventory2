@@ -66,7 +66,7 @@
                 <div class="form-group">
                   <label for="permission">Message</label>
                   <textarea class="form-control" id="message" name="message">
-                     <?php echo $data['message'] ?>
+                     <?php echo $company_data['message'] ?>
                   </textarea>
                 </div>
                 <div class="form-group">

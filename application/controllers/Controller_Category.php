@@ -183,7 +183,6 @@ class Controller_Category extends Admin_Controller
 			$response['success'] = false;
     		$response['messages'] = 'Error please refresh the page again!!';
 		}
-
 		echo json_encode($response);
 	}
 
